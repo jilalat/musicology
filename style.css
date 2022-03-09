@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Oswald', sans-serif; */
+}
+header {
+  background-color: #303030;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.5rem;
+  padding: 0 3.5rem 0 5rem;
+  color: #ffffff;
+
+}
+.logo {
+  /* background-color: blueviolet; */
+  width: 8rem;
+  height: auto;
+}
+nav ul {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aqua; */
+  width: 34.5rem;
+  font-size: 24px;
+  /* font-weight: 400; */
+}
+li {
+  list-style-type: none;
+}
+.search {
+  font-size: 24px;
+
+}
